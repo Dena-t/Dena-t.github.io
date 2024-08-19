@@ -1,17 +1,14 @@
 import React from 'react';
-
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
 function App() {
  return (
-<Router>
+<Router basename="/portfolio">
 <Route exact path="/" component={Home} />
-       {/* Add more routes as needed */}
 </Router>
  );
 }
 export default App;
-
 
 
 // import logo from './logo.svg';
