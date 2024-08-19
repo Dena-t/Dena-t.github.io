@@ -7,7 +7,6 @@ function App() {
 <Router>
 <Switch>
 <Route exact path="/" component={Home} />
-<Route path="/about" component={About} />
        {/* Add more routes as needed */}
 </Switch>
 </Router>
