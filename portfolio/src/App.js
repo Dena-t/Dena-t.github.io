@@ -1,13 +1,11 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
 function App() {
  return (
 <Router>
-<Switch>
 <Route exact path="/" component={Home} />
        {/* Add more routes as needed */}
-</Switch>
 </Router>
  );
 }
