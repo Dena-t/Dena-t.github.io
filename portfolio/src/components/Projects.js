@@ -6,7 +6,7 @@ import React from 'react';
 <ul className="list-group">
 <li className="list-group-item">
 <a href="https://github.com/Dena-t/MedicalAppointmentSystem-Crud-NodejsReactMySQL.git" target="_blank" rel="noopener noreferrer">Medical Appointmnet System-Crud Project with Node.js React and MySQL.</a>
-<p>This Full stack Crud project uses Node.js for Backend and React for Front end. Enhanced with Authentication and Alerting system for Doctors in case of any changes in appointments</p>
+<p>This Full stack Crud project uses Node.js for Backend and React for Front end. Enhanced with Authentication and Alerting system for Doctors in case of any changes in the appointments.</p>
 </li>
 <li className="list-group-item">
 <a href="https://github.com/Dena-t/BookStore-Crud-JavaSpringBoot-MySQL.git" target="_blank" rel="noopener noreferrer">BookStore Project with JavaSpringBoot ,ThymeLeaf and MySql.</a>
@@ -17,7 +17,7 @@ import React from 'react';
 <p>Fullstack Project is created by PHP-Laravel for Backend and uses HTML CSS Twig for front end and Views,and MySQL as Database. </p>
 </li>
 <li className="list-group-item">
-<a href="https://github.com/Dena-t/DogParkFinder-NodejsMongoDB.git" target="_blank" rel="noopener noreferrer">Dog Park Finder Project with Node.js and Mongo DB</a>
+<a href="https://github.com/Dena-t/DogParkFinder-NodejsMongoDB.git" target="_blank" rel="noopener noreferrer">Dog Park Finder Project with Node.js and Mongo DB.</a>
 <p>This project uses NodeJs/MongoDB for Business Logic Tier and Javascript/Html Css for front end to perform Crud operations.</p>
 </li>
 <li className="list-group-item">
