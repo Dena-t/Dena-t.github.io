@@ -13,6 +13,7 @@ import React, { useState } from 'react';
             alert('Message sent successfully!');
         }, (error) => {
             alert('Failed to send message, please try again.');
+            console.error('EmailJS Error:', error); 
         });
       setFormData({ name: '', email: '', message: '' });
     };
