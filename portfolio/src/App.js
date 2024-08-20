@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import CV from './components/CV';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
 <main className="container mt-4">
   <Routes>
+  <Route path="/" element={<Home/>} />
 <Route path="/cv" element={<CV/>} />
 <Route path="/projects"element={<Projects/>} />
 <Route path="/contact" element={<ContactMe/>} /></Routes>
