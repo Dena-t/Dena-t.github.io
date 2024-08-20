@@ -33,8 +33,8 @@ function App() {
 <Route path="/projects"element={<Projects/>} />
 <Route path="/contact" element={<ContactMe/>} /></Routes>
 </main>
-<hr></hr>
-</div>
+
+</div><hr></hr>
 </Router>
   );
 }
