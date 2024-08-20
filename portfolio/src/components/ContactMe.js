@@ -8,7 +8,7 @@ import React, { useState } from 'react';
     });
     const handleSubmit = (e) => {
       e.preventDefault();
-      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+      emailjs.send('service_ivgvgpw', 'service_ivgvgpw', formData, 'ms2V2aQxFe9Ku3hK2')
         .then((result) => {
             alert('Message sent successfully!');
         }, (error) => {
