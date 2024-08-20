@@ -9,7 +9,7 @@ function App() {
  <Router>
  <div>
  <header className="navbar navbar-expand-lg navbar-light bg-light">
- <Link className="navbar-brand" to="/">Portfolio</Link>
+ <Link className="navbar-brand" to="/">My Portfolio</Link>
  <div className="collapse navbar-collapse">
  <ul className="navbar-nav mr-auto">
  <li className="nav-item">
