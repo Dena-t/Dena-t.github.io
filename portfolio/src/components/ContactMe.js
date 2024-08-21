@@ -26,7 +26,8 @@ import React, { useState } from 'react';
     return (
 <div>
 <h1>Contact Me</h1>
-<p>I would be happy to hear from you !</p><p>Please fill out the form below and I will contact you as soon as possible!</p>
+<br></br>
+<p className='contact'>I would be happy to hear from you !</p><p className='contact'>Please fill out the form below and I will contact you as soon as possible!</p>
 <br></br>
 <form onSubmit={handleSubmit}>
 <div className="form-group">
