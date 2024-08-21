@@ -11,8 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-navbar {
-  background-color: #CBC0D3; /* Header color */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container takes full height */
+ }
+.navbar {
+  background-color: #d3d1d3; /* Header color */
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -31,19 +36,24 @@ navbar {
  }
  /* Main Content Area */
  .container {
-  background-color: #FEEAFA; /* Main content color */
+  background-color: #f3efef; /* Main content color */
   padding: 20px;
+  flex: 1;
  }
  /* Footer Styles */
  .footer {
-  background-color: #CBC0D3; /* Footer color */
+  background-color: #d3d1d3; /* Footer color */
   text-align: center;
   padding: 10px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  /* position: relative; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  margin-top: 20px;
  }
  .footer p {
   margin: 0;
   color: #000; /* Change footer text color if needed */
+ }
+ .home p,h1{
+ text-align: center;
  }
