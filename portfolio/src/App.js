@@ -4,6 +4,13 @@ import CV from './components/CV';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Home from './components/Home';
+const Footer =()=>{
+  return (
+<footer className='footer'>
+  <p> © 2024 Dena Torabi .All rights reserved.</p>
+</footer>
+  );
+};
 
 function App() {
   return (
@@ -33,7 +40,7 @@ function App() {
 <Route path="/projects"element={<Projects/>} />
 <Route path="/contact" element={<ContactMe/>} /></Routes>
 </main>
-
+<Footer/>
 </div>
 </Router>
   );

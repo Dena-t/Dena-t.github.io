@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+navbar {
+  background-color: #CBC0D3; /* Header color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .navbar-nav {
+  list-style-type: none;
+  display: flex;
+ }
+ .nav-item {
+  margin-left: 20px;
+ }
+ .nav-link {
+  text-decoration: none;
+  color: #000; /* Change link color if needed */
+ }
+ /* Main Content Area */
+ .container {
+  background-color: #FEEAFA; /* Main content color */
+  padding: 20px;
+ }
+ /* Footer Styles */
+ .footer {
+  background-color: #CBC0D3; /* Footer color */
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+ }
+ .footer p {
+  margin: 0;
+  color: #000; /* Change footer text color if needed */
+ }
