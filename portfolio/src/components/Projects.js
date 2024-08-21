@@ -3,6 +3,7 @@ import React from 'react';
     return (
 <div>
 <h1>Projects</h1>
+<p class="project"><i>Here, you can find some of my projects in Github.</i></p>
 <ul className="list-group">
 <li className="list-group-item">
 <a href="https://github.com/Dena-t/MedicalAppointmentSystem-Crud-NodejsReactMySQL.git" target="_blank" rel="noopener noreferrer">Medical Appointmnet System-Crud Project with Node.js React and MySQL.</a>
