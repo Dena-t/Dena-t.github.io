@@ -15,7 +15,7 @@ const Footer =()=>{
 function App() {
   return (
  <Router>
- <div>
+ <div className="app-container">
  <header className="navbar navbar-expand-lg navbar-light bg-light">
  <Link className="navbar-brand" to="/">My Portfolio</Link>
  <div className="collapse navbar-collapse">
