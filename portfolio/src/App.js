@@ -34,7 +34,7 @@ function App() {
 <Route path="/contact" element={<ContactMe/>} /></Routes>
 </main>
 
-</div><hr></hr>
+</div>
 </Router>
   );
 }
