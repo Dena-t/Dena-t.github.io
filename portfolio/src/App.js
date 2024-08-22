@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import CV from './components/CV';
 import Projects from './components/Projects';
-import ContactMe from './ContactMe';
+import ContactMe from '/ContactMe.js'
 import Home from './components/Home';
 const Footer =()=>{
   return (
