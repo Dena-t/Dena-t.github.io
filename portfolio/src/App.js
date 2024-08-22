@@ -25,10 +25,10 @@ function App() {
  <a className="nav-link" href="/DENA-TORABI.pdf" download>CV</a>
  </li>
  <li className="nav-item">
- <Link className="nav-link" to="/projects">Projects</Link>
+ <Link className="nav-link" to="/Projects">Projects</Link>
  </li>
  <li className="nav-item">
- <Link className="nav-link" to="/ContactMe">Contact Me</Link>
+ <Link className="nav-link" to="/contact">Contact Me</Link>
  </li>
  </ul>
  </div>
@@ -38,7 +38,7 @@ function App() {
   <Routes>
   <Route path="/" element={<Home/>} />
 <Route path="/cv" element={<CV/>} />
-<Route path="/projects"element={<Projects/>} />
+<Route path="/Projects"element={<Projects/>} />
 <Route path="/contact" element={<ContactMe/>} /></Routes>
 </main>
 <Footer/>
