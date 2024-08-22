@@ -18,9 +18,6 @@ body {
  .navbar {
   background-color: #d3d1d3; /* Header color */
   padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
  }
  .navbar-nav {
   list-style-type: none;

@@ -15,37 +15,37 @@ const Footer =()=>{
 function App() {
    return (
     <Router>
-<div className="app-container">
-<header className="navbar navbar-expand-lg navbar-light bg-light">
-<NavLink className="navbar-brand" to="/">My Portfolio</NavLink>
-<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span className="navbar-toggler-icon"></span>
-</button>
-<div className="collapse navbar-collapse" id="navbarNav">
-<ul className="navbar-nav mr-auto">
-<li className="nav-item">
-<a className="nav-link" href="/DENA-TORABI.pdf" download>CV</a>
-</li>
-<li className="nav-item">
-<NavLink className="nav-link" to="/Projects" activeClassName="active">Projects</NavLink>
-</li>
-<li className="nav-item">
-<NavLink className="nav-link" to="/contact" activeClassName="active">Contact Me</NavLink>
-</li>
-</ul>
-</div>
-</header>
-<main className="container mt-4">
-<Routes>
-<Route path="/" element={<Home />} />
-<Route path="/cv" element={<CV />} />
-<Route path="/Projects" element={<Projects />} />
-<Route path="/contact" element={<ContactMe />} />
-</Routes>
-</main>
-<Footer />
-</div>
-</Router>
+    <div className="app-container">
+    <header className="navbar navbar-expand-lg navbar-light bg-light">
+    <NavLink className="navbar-brand" to="/">My Portfolio</NavLink>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav mr-auto">
+    <li className="nav-item">
+    <a className="nav-link" href="/DENA-TORABI.pdf" download>CV</a>
+    </li>
+    <li className="nav-item">
+    <NavLink className="nav-link" to="/Projects" activeClassName="active">Projects</NavLink>
+    </li>
+    <li className="nav-item">
+    <NavLink className="nav-link" to="/contact" activeClassName="active">Contact Me</NavLink>
+    </li>
+    </ul>
+    </div>
+    </header>
+    <main className="container mt-4">
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/cv" element={<CV />} />
+    <Route path="/Projects" element={<Projects />} />
+    <Route path="/contact" element={<ContactMe />} />
+    </Routes>
+    </main>
+    <Footer />
+    </div>
+    </Router>
 //  <Router>
 
 //  <div className="app-container">
