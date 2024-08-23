@@ -9,7 +9,7 @@ function Home()
             <p> <i>This is <b>Dena! </b></i>
             <br></br>
             <br></br>
-            <i> A fullStack Developemer student At John Abbott College,  
+            <i> A fullStack Developer student At John Abbott College,  
              with several years of experience in IT field!</i></p>
              <br></br>
             <p><i>Motivated and passionate about programming,
